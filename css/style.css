@@ -84,6 +84,71 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+:root{
+  --primary-colour: #606C38;
+  --secondary-colour: #DDA15E;
+  --accent-colour: #BC6C25;
+  --background-colour: #FEFAE0;
+  --dark-text-colour: #000000;
+  --light-text-colour: #ffffff;
+}
+
+/* Nav-Bar styling */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--primary-colour);
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: var(--dark-text-colour);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: var(--secondary-colour);
+}
+
+li a:active{
+  background-color: var(--secondary-colour);
+}
+
+/* HomePage - Hero Section */
+.hero{
+  background-color: var(--background-colour);
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero__title{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero__line-break{
+  display: block;
+}
+
+.hero__highlight{
+  color: var(--accent-colour);
+}
+
+.hero__description{
+  font-size: 1.2rem;
+  color: var(--dark-text-colour);
+  line-height: 1.6;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
